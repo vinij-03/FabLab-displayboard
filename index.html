@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/90b91443f6.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <video style="" autoplay muted loop id="myVideo">
+      <source
+        src="/images/WhatsApp Video 2022-05-13 at 5.18.08 PM.mp4"
+        type="video/mp4"
+      />
+    </video>
+    <div class="top" style="width: 100%; display: table">
+      <div style="display: table-row; height: 100px">
+        <div style="display: table-cell">
+          <div class="flex-container" style="display: flex">
+            <div>
+              <img
+                class="logo"
+                src="/images/79267582_106314554201102_2416221091740516352_n.jpg"
+                style="border-radius: 100%; width: 100px; height: 100px"
+                alt=""
+              />
+            </div>
+            <div style="text-align: left; padding: 2rem 0 0 3rem">
+              <h1 style="color: white; font-size: 3.5rem">S'O'A FabLab</h1>
+            </div>
+          </div>
+        </div>
+        <div style="display: table-cell;">
+          <button
+          type="button"
+          class="btn btm btn-success"
+          style="border-radius: 20%;"
+          ><h1>open</h1></button
+        >
+         </div>
+      </div>
+    </div>
+
+    <div class="container-mid">
+      <div
+        class="card event"
+        style="
+          width: 500px;
+          margin: 250px 0 0 5rem;
+          background-color: #112b3c;
+          border-radius: 5%;
+          color: white;
+        "
+      >
+        <div class="card-header">
+          <h1 style="font-size: 2rem">
+            <marquee attribute_name="attribute_value" ....more attributes>
+              <i class="fa-solid fa-calendar-days"></i> Upcoming Events
+            </marquee></h1
+          >
+        </div>
+        <ul class="list-group list-group-flush">
+          <li
+            class="list-group-item items"
+            style="color: white; text-align: center"
+          >
+            <h2 style="display: inline">Design/Thinking</h2>
+          </li>
+          <li
+            class="list-group-item items"
+            style="color: white; text-align: center"
+            ><div
+              class="countdown"
+              style="font-size: 2rem"
+              id="timer"
+              data-hours="1"
+              data-minutes="2"
+              data-seconds="3"
+            ></div
+          ></li>
+        </ul>
+      </div>
+
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide img"
+        style="
+          margin: 250px 0 0 5rem;
+          width: 500px;
+          height: 300px;
+          margin-left: 5rem;
+          border-radius: 50%;
+        "
+        data-bs-ride="carousel"
+      >
+        <div
+          class="carousel-inner img"
+          style="text-align: center; border-radius: 5%"
+        >
+          <div class="carousel-item active img">
+            <img
+              src="/images/pic (2).jpg"
+              class="d-block w-100"
+              style="width: 400px; height: 300px"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item img">
+            <img
+              src="/images/82t53bh31uf31.jpg"
+              style="width: 400px; height: 300px"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item img">
+            <img
+              src="/images/pic (2).jpg"
+              class="d-block w-100"
+              style="width: 400px; height: 300px"
+              alt="..."
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
