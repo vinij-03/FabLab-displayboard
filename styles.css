@@ -50,11 +50,15 @@ body{
     box-shadow: 0 4px 8px 0 black;
  }
  #myVideo {
-    position: fixed;
+     
+    position: absolute;
     right: 0;
     bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+    top: 0;
+    bottom: 0;
+    object-fit: cover;
+    min-width: 100vw;
+    min-height: 100vh;
   }
 .open-button {
   color: white;
@@ -67,5 +71,13 @@ body{
   width: 280px;
 }
 h1{
+   
     text-shadow: 4px 4px black;
+    color: linear-gradient( #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    animation: gradient 15s ease infinite;
 }  
+.bottom{
+    
+    background-color: red;
+    margin-top:2rem;
+}
